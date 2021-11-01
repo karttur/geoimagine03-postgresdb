@@ -431,6 +431,7 @@ class ManageProcess(PGsession):
                     
                     exitstr = 'EXITING - element missing for  %(rootprocid)s %(subprocid)s ' %queryD
                     
+                    print ('param',param)
                     print (exitstr)
                     SNULLE
                     exit(exitstr)
